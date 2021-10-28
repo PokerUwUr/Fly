@@ -2,7 +2,6 @@ name: Fly-Pokker77
 main: Fly\Fly
 version: 1.0.0
 api: 3.0.0
-load: POSTWORLD
 author: Pokker77
 description: Coma Monda Tu Y Toda Tu Familia
 
