@@ -20,13 +20,13 @@ class Fly extends PluginBase implements Listener {
         }
         if($args[0] == "on"){
              $sender->setAllowFlight(true);
-             $sender->sendMessage("§aActivaste Esta Monda");
+             $sender->sendMessage("§aActivaste El Fly");
              $sender->addTitle("§aUn Pericaso Pa Que Vuele");
          }
          if($args[0] == "off"){
             $sender->setAllowFlight(false);
             $sender->setFlying(false);
-            $sender->sendMessage("§cEsta Monda Se Apago");
+            $sender->sendMessage("§cEl Fly Esta Off");
             $sender->addTitle("§cJodaa Mani Se Apago");
         }
     }
